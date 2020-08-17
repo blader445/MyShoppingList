@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<!--Language du document-->
+<html lang="fr">
+	<head>
+		<!--Encodage du document-->
+		<meta charset="UTF-8">
+		<title>Liste de courses</title>
+		<link href="style.css" rel="stylesheet">
+		<!--Script Javascript-->
+		<script type="text/javascript" src="filename.js"></script>
+		<!--Script FontAwesome-->
+		<script src="https://kit.fontawesome.com/1cd05e89a0.js" crossorigin="anonymous"></script>
+	</head>
+	<body>
+		<!-- Première div principale contenant le titre de la page, la barre permettant d'entrer les items et le bouton pour valider l'entrée. -->
+		<div class="container">
+			<div class="title">
+				<p style="text-align: center;">Liste de courses</p>  
+			</div>
+			<div class="inputBar">
+				<input id="myInput" class="item" type="text"/>
+				<button id="myBtn" onclick=addElement()>Ajouter</button>
+			</div>
+		</div>
+		<!-- Deuxième div principale contenant les items sous forme de texte avec un bouton "Move" et "Delete" pour chacun d'eux -->
+		<div class="items" id="items">
+			<!--div class="item1" id="itemsheader"-->
+				<!--p class ="itemtext">Objet</p-->
+				<!--button class="buttons" onclick="moveItem()" style="margin-left: 50px;"><i class="fas fa-arrows-alt"></i></button-->
+				<!--button class="buttons" onclick="moveItem()" style="margin-left: 50px;"><i class="fas fa-arrows-alt"></i></button-->
+				<!--button class='buttons' onclick="delItem()"><i class="fas fa-times"></i></button-->
+			<!--/div-->
+		 </div>
+	</body>
+</html>

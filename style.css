@@ -1,0 +1,43 @@
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+.full-height {
+  height: 100%;
+  background: yellow;
+}
+
+.inputBar {
+  display: flex;
+  justify-content: center;
+}
+
+.item1 {
+  display: flex;
+  width: 35%;
+  justify-content: center;
+  border: 1px solid #DBDDE0;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.button1 {
+  padding: 5px 5px;
+  margin: 10px;
+}
+
+.addedItem {
+  background-color: yellow;
+}
+
+.buttons{
+  padding: 5px 5px;
+  margin: 10px;
+}
+
+.itemtext{
+margin-right: 140px;
+margin-left: 20px;
+margin-top: 20px;
+}
